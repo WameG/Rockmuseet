@@ -1,59 +1,32 @@
-﻿[
-  {
-    "Id": 1,
-    "Name": "Historie 1",
-    "Description": "Nam quis nulla. Integer malesuada. In in enim a arcu imperdiet malesuada. Sed vel lectus. Donec odio urna, tempus molestie.",
-    "Image": "test-image.jpeg",
-    "MusicAudioId": 59485,
-    "MusicAudio": "rockstar.mp3",
-    "HistoryAudioId": 89384,
-    "HistoryAudio": "the-destroyer.mp3"
-  },
-  {
-    "Id": 2,
-    "Name": "Historie 2",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam feugiat, turpis at pulvinar vulputate, erat libero tristique tellus, nec bibendum.",
-    "Image": "test-image.jpeg",
-    "MusicAudioId": 597525,
-    "MusicAudio": "rockstar.mp3",
-    "HistoryAudioId": 8913465,
-    "HistoryAudio": "the-destroyer.mp3"
-  },
-  {
+{
+  "3": {
     "Id": 3,
-    "Name": "Historie 3",
+    "Name": "History 3",
     "Description": "In sem justo, commodo ut, suscipit at, pharetra vitae, orci. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor.",
     "Image": "test-image.jpeg",
-    "MusicAudioId": 5949542,
-    "MusicAudio": "rockstar.mp3",
-    "HistoryAudioId": 134643,
-    "HistoryAudio": "the-destroyer.mp3"
+    "HistoryAudioId": 9556,
+    "HistoryAudio": "the-destroyer.mp3",
+    "MusicAudioId": 5042,
+    "MusicAudio": "rockstar.mp3"
   },
-  {
+  "4": {
     "Id": 4,
-    "Name": "Historie 4",
+    "Name": "History 4",
     "Description": "Praesent in mauris eu tortor porttitor accumsan. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis.",
     "Image": "test-image.jpeg",
+    "HistoryAudioId": 6686,
+    "HistoryAudio": "rockstar.mp3",
+    "MusicAudioId": 6826,
     "MusicAudio": "the-destroyer.mp3"
   },
-  {
-    "Id": 5,
-    "Name": "Historie 5",
-    "Description": "Morbi leo mi, nonummy eget, tristique non, rhoncus non, leo. Nullam faucibus mi quis velit. Integer in sapien. Fusce tellus.",
+  "9": {
+    "Id": 9,
+    "Name": "History Finesse",
+    "Description": "Something short and leading about the collection below—its contents, the creator, etc. ",
     "Image": "test-image.jpeg",
-    "MusicAudioId": 498134,
-    "MusicAudio": "rockstar.mp3",
-    "HistoryAudioId": 71349,
-    "HistoryAudio": "the-destroyer.mp3"
-  },
-  {
-    "Id": 6,
-    "Name": "Historie 6",
-    "Description": "In sem justo, commodo ut, suscipit at, pharetra vitae, orci. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor.",
-    "Image": "test-image.jpeg",
-    "MusicAudioId": 134673,
-    "MusicAudio": "rockstar.mp3",
-    "HistoryAudioId": 984781,
-    "HistoryAudio": "the-destroyer.mp3"
+    "HistoryAudioId": 7436,
+    "HistoryAudio": "rockstar.mp3",
+    "MusicAudioId": 3489,
+    "MusicAudio": "the-destroyer.mp3"
   }
-]
+}

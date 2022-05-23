@@ -12,24 +12,20 @@ namespace Rockmuseet
 {
     public class HistoriesModel : PageModel
     {
-        private IHistoryRepository catalog;
+        private IHistoryRepository historyRepository;
         public HistoriesModel(IHistoryRepository repository)
         {
-            catalog = repository;
+            historyRepository = repository;
         }
-        public List<History> Histories { get; private set; }
+        public Dictionary<int, History> Histories { get; private set; }
 
         [BindProperty]
         public History History { get; set; }
 
-        public void History_Click(Object sender, EventArgs e)
-        {
-            Console.WriteLine("History Clicked");
-        }
 
         public IActionResult OnGet()
         {
-            Histories = catalog.GetAllHistories();
+            Histories = historyRepository.GetAllHistories();
             return Page();
         }
     }

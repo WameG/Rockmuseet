@@ -6,6 +6,10 @@ namespace Rockmuseet.Interfaces
 {
         public interface IHistoryRepository
         {
-        List<History> GetAllHistories();
+        Dictionary<int, History> GetAllHistories();
+        History GetHistory(int Id);
+        void AddHistory(History history);
+        void DeleteHistory(History history);
+        void UpdateHistory(History history);
         }
 }
